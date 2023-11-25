@@ -3,7 +3,7 @@ package com.techbuzz.camel.firstcamelproject.routes;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class FirstProgramRoutes extends RouteBuilder {
     @Override
     public void configure() throws Exception {

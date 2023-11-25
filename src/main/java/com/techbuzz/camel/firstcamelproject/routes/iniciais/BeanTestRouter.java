@@ -1,9 +1,9 @@
-package com.techbuzz.camel.firstcamelproject.routes;
+package com.techbuzz.camel.firstcamelproject.routes.iniciais;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class BeanTestRouter extends RouteBuilder {
     @Override
     public void configure() throws Exception {

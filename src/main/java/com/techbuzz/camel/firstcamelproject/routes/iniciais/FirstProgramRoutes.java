@@ -1,4 +1,4 @@
-package com.techbuzz.camel.firstcamelproject.routes;
+package com.techbuzz.camel.firstcamelproject.routes.iniciais;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;

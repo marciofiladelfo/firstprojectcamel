@@ -4,8 +4,8 @@ import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.springframework.stereotype.Component;
 
-//@Component
-public class ProduceCarProcessor implements Processor {
+@Component
+public class ProducerRickAndMortyProcessor implements Processor {
     @Override
     public void process(Exchange exchange) throws Exception {
         String output = exchange.getIn().getBody(String.class);

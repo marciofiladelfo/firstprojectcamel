@@ -3,7 +3,7 @@ package com.techbuzz.camel.firstcamelproject.routes.eipmulticast;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class EipMulticastPipelineRouter extends RouteBuilder {
 
     @Override

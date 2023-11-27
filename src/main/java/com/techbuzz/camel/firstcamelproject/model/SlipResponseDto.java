@@ -8,17 +8,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @RequiredArgsConstructor
-public class RickAndMortyResponseDto {
+public class SlipResponseDto {
     @JsonProperty("id")
     private Integer characterId;
 
-    @JsonProperty("name")
+    @JsonProperty("advice")
     private String characterName;
-
-    @JsonProperty("status")
-    private String characterStatus;
-
-    @JsonProperty("species")
-    private String characterSpecies;
 
 }

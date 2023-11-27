@@ -1,5 +1,6 @@
 package com.techbuzz.camel.firstcamelproject.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -7,9 +8,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @RequiredArgsConstructor
-public class Location {
+public class AdviceSlipResponseDto {
 
-    private String name;
-
-    private String url;
+    @JsonProperty("slip")
+    private SlipResponseDto slipResponseDto;
 }
